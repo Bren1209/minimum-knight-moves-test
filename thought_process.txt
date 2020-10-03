@@ -1,0 +1,12 @@
+I've done some Googling, and found various solutions online. 
+So I took the necessary steps in order to resolve the issue. Here is my thought process:
+
+Some of the tutorials on solving the issue mentioned the use of "BFS". Upon further research, I discovered
+that BFS (Breadth-First Search) is an algorithm that starts its search at a source, moves to neighbouring
+nodes that are connected to the source (should conditions be met), then moves on to the next level or layer
+before continuing the search. 
+
+This entails making use of a queue to store the moves in. I've imported and made use of the Collections library
+to ease handling of the array (.popleft(), .deque(), etc.)
+
+The rest was trial and error, standard logic and solving issues via Google.
